@@ -34,7 +34,8 @@ module.exports = async function(deployer, network) {
   }
 
   const rgeAddress = {
-    sokol: '0x5475300766433dd082a7340fc48a445c483df68f'
+    sokol: '0x5475300766433dd082a7340fc48a445c483df68f',
+    ropsten: '0x3D4d6B701376E37C599B70FF8fad2C2D9C05DC8B'
   }
 
   if (network && rgeAddress[network]) {

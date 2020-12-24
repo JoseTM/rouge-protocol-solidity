@@ -49,5 +49,7 @@
     "pify": "^5.0.0",
     "truffle-privatekey-provider": "^1.5.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.0"
+  }
 }
